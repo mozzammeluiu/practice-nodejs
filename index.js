@@ -1,7 +1,4 @@
 const http = require('http');
-const Calling = require('./lesson-event/event');
-
-const calling = new Calling();
 
 const server = http.createServer((req, res) => {
     const { url } = req;
@@ -14,8 +11,3 @@ const server = http.createServer((req, res) => {
 server.listen(8080, () => {
     console.log('Connection established on port 8080');
 });
-
-calling.on('call', ({ name, message }) => {
-    console.log(`Hey ${name}!, ${message}`);
-});
-calling.callingStart();
