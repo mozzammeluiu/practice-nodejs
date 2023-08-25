@@ -1,0 +1,28 @@
+{
+  "name": "practice-node-js",
+  "version": "1.0.0",
+  "description": "A project for practicing node js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mozzammeluiu/practice-nodejs.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "practice"
+  ],
+  "author": "Muhammad Mozzammel Haque",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mozzammeluiu/practice-nodejs/issues"
+  },
+  "homepage": "https://github.com/mozzammeluiu/practice-nodejs#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
